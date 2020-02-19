@@ -1,7 +1,7 @@
 # fuckyouwebdesign
 A website made as a parody of w3schools and such meant to teach you about minimalist web design
 
-The website is live at [fuckyouwebdesign.com](http://fuckyouwebdesign)
+The website is live at [fuckyouwebdesign.com](http://fuckyouwebdesign.com)
 
 ## Site structure
 
