@@ -4,29 +4,59 @@
 </head>
 <body>
 
-	<h1 style="text-align:center"> Fuck you web design </h1>
-	<p style="text-align:center"> You don't know shit </p>
+	<h1 align="center"> Fuck you web design </h1>
+	<p align="center"> You don't know shit </p>
 
 	<hr>
 
 	<nav>
-		<p style="text-align:center"> | <a href="./index.html">Home</a> | <a href="../about.html">About</a> | <a href="../toc.html">Table Of Contents</a> | </p>
+		<p align="center"> | <a href="./index.html">Home</a> | <a href="../about.html">About</a> | <a href="../toc.html">Table Of Contents</a> | </p>
 	</nav>
 
 	<hr>
 
 	<table>
 	<tr>
-		<td style="padding-right: 25px;">
+		<td cellspacing="25" valign="top">
 			<h2> Basics </h2>
 			<ol>
-				<li><a href="#">Index</a></li>
+				<li><a href="#basics">Index</a></li>
+				<li><a href="#whatishtml">What is html?</a></li>
+				<li><a href="#structure">Structure</a></li>
 			</ol>
 		</td>
 		<td>
-			<h2> Basics </h2>
+			<h2 id="basics"> Basics </h2>
 
-			<p> These are the very basics of webdesign <p>
+			<p> These are the very basics of html <p>
+
+
+			<h3 id="whatishtml"> What is html? </h3>
+
+			<p> html, hyper text markup language, is a markup language used for creating websites. The language uses <code>&lttags&gt</code> to show the start of a section and <code>&lt/tags&gt</code> to show the end of sections, these tags may contain more data or more tags.
+
+			<h3 id="structure"> The structure of an html document </h3>
+
+			<p> The general structure of a html document is as follows </p>
+
+			<pre><code>
+&lt!DOCTYPE html&gt
+&lthead&gt
+	&lttitle&gtHello, World!&lt/title&gt
+&lt/head>
+&ltbody>
+	&lth1&gtHello, World!&lt/h1&gt
+&lt/body>
+&lt/html>
+			</pre></code>
+
+			<p> The <code>&lt!DOCTYPE</code> html&gt tag tells the browser that it is loading a html document, it's might be possible for a browser to load a webpage without this, however there is no reason to not include it. This tag in ended by the <code>&lt/html&gt</code> tag at the end of the document.</p>
+
+			<p> The <code>&lthead&gt</code> tag holds information that is not directly shown on the site. This could be metadata, such as character sets or search tags; linking style files; and more, in the example the <code>&lttitle&gt</code> tag is used for setting the title of the page (in most browsers this is the text shown at the pages tab)</p>
+
+			<p> The <code>&ltbody&gt</code> tag holds information that is shown on the site </p>
+
+
 		</td>
 	</tr>
 	</table>
