@@ -24,6 +24,8 @@
 				<li><a href="#whatishtml">What is html?</a></li>
 				<li><a href="#structure">The structure of html</a></li>
 				<li><a href="#text">Text in html</a></li>
+				<li><a href="#textstyle">Styling text in html</a></li>
+				<li><a href="#link">Links in html</a></li>
 			</ol>
 		</td>
 		<td>
@@ -87,7 +89,40 @@
 
 			<p> This is an example paragraph </p>
 
-			<p> Note that (by default) newlines in paragraphs and headers will be ignored, use the <code>&lt;br&gt;</code> tag to insert a newline into a paragraph. However, do not use it for creating new paragraphs, instead create a new fucking paragraph. </p>
+			<h3 id="textstyle"> Styling text in html </h3>
+
+			<p> These tags can be used to style text in html </p>
+
+			<ul>
+				<li><code>&lt;b&gt;</code> <b> Bold </b> text</li>
+				<li><code>&lt;strong&gt;</code> <strong> Important </strong> text, usually this will just be bold.</li>
+				<li><code>&lt;i&gt;</code> <i>Italic</i> text</li>
+				<li><code>&lt;em&gt;</code> <em>Emphasized</em> text, usually this will just be in italics.</li>
+				<li><code>&lt;mark&gt;</code> <mark>Marked</mark> text</li>
+				<li><code>&lt;small&gt;</code> <small>Small</small> text</li>
+				<li><code>&lt;del&gt;</code> <del>Deleted</del> text</li>
+				<li><code>&lt;ins&gt;</code> <ins>Inserted text</ins></li>
+				<li><code>&lt;sub&gt;</code> <sub>Subscript</sub> text</li>
+				<li><code>&lt;sup&gt;</code> - <sup>Superscript</sup> text</li>
+			</ul>
+
+			<h3 id="links"> Links in html </h3>
+
+			<p> Adding links in html is easy, just surround whatever you wish to make into a link by surrounding it by the <code>&lt;a&gt;</code> tag and setting it's href property to a url. <p>
+
+			<pre><code>
+&lt;p&gt; &lt;a href="https://duckduckgo.com"&gt;This&lt;/a&gt; is an example link &lt;/p&gt;
+			</pre></code>
+
+			<p> <a href="https://duckduckgo.com">This</a> is an example link </p>
+
+			<p> You can also create relative links </p>
+
+			<pre><code>
+&lt;p&gt; &lt;a href="../index.html"&gt;This&lt;/a&gt; is an example link &lt;/p&gt;
+			</pre></code>
+
+			<p> <a href="../index.html">This</a> is an example link </p>
 
 		</td>
 	</tr>
