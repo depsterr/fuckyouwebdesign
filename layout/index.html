@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <title>fuck you web design</title>
+</head>
+<body>
+
+	<h1 align="center"> Fuck you web design </h1>
+	<p align="center"> You don't know shit </p>
+
+	<hr>
+
+	<nav>
+		<p align="center"> | <a href="../index.html">Home</a> | <a href="../toc.html">Table Of Contents</a> | <a href="../about.html">About</a> | </p>
+	</nav>
+
+	<hr>
+
+	<table cellspacing="25">
+	<tr>
+		<td valign="top">
+			<h2> Basics </h2>
+			<ol>
+				<li><a href="#layout">Index</a></li>
+				<li><a href="#htmltables">Html Tables</a></li>
+			</ol>
+		</td>
+		<td>
+			<h2 id="layout"> Layout </h2>
+
+			<p> This is going to be a guide on using html tables to create a simple site layout. <p>
+
+			<h3 id="htmltables"> Html Tables </h3>
+
+			<p> To start a html table use the <code>&lt;table&gt;</code> tag, you may additionally set the cellspacing property to change the amount of space in between the table cells <code>&lt;table cellspacing="25"&gt;</code>. This value is in pixels. </p>
+
+			<p> Within the <code>&lt;table&gt;</code> tag the <code>&lt;tr&gt;</code> tag is used to create a new table row </p>
+
+			<p> Within the <code>&lt;tr&gt;</code> tag the <code>&lt;td&gt;</code> tag is then used for table cells and the <code>&lt;tr&gt;</code> tag is used for header cells (this will not be used for layout. </p>
+
+			<p> For example on this site the navigation to the left is a table cell and this article is another table cell all on a singular table row. </p>
+
+			<p> If you still do not understand this concept look at this example from the about page </p>
+
+			<pre><code>
+&lt;table cellspacing="10"&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Maintainer:&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://depsterr.com/about/"&gt;depsterr&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Contributors:&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://fabbbe.se/about/"&gt;fabbbe&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;License:&lt;/td&gt;
+		&lt;td&gt;&lt;a href="./license.html"&gt;WTFPL&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+			</pre></code>
+
+			<table cellspacing="10">
+				<tr>
+					<td>Maintainer:</td>
+					<td><a href="http://depsterr.com/about/">depsterr</a></td>
+				</tr>
+				<tr>
+					<td>Contributors:</td>
+					<td><a href="http://fabbbe.se/about/">fabbbe</a></td>
+				</tr>
+				<tr>
+					<td>License:</td>
+					<td><a href="./license.html">WTFPL</a></td>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+	</table>
+
+</body>
+</html>
